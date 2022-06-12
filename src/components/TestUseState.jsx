@@ -11,9 +11,7 @@ export const TestUseState = () => {
         setState(state +1);
         // còn để dưới đây thì sau khi click nó hiện state
         // console.log(state);
-}
-
-
+        }
   return (
     <div>
         {/* hien ra so 0 */}
