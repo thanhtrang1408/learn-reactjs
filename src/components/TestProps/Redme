@@ -1,0 +1,6 @@
+- props là truyền data từ cha sang con - chỉ truyền theo 1 hướng gọi là oneway
+data binding và không truyền ngược lại - muốn truyên ngược lại từ con lên cha
+thì truyền sự kiện vào // bên cha + tạo biến callbackData để chứa data con +
+trong UI truyền propsFunc chứa biến callBackData để render ra UI // bên con +
+khai báo hàm propsfunc + tạo dataCon trong thg con + sd hàm handelEven goi
+propsfunction chứa dataCon

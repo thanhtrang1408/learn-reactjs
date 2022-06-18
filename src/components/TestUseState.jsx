@@ -9,7 +9,7 @@ export const TestUseState = () => {
     
     const btnsetState =() =>{
         setState(state +1);
-        // còn để dưới đây thì sau khi click nó hiện state
+        // còn để dưới đây thì sau khi click nó hiện state trước, r click cái nữa mới ra
         // console.log(state);
         }
   return (

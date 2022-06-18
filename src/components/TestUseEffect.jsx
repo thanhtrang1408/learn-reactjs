@@ -3,7 +3,7 @@ import React,{useEffect,useState} from 'react'
 
 export const TestUseEffect =() => {
     const [state, setState] = useState(0)
-    console.log(state);
+    console.log(state)
 
     // case1: k dependency(render 1 lan duy nhat)
 
