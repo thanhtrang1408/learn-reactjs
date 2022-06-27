@@ -4,13 +4,22 @@ import TestMap from "./components/TestMap";
 import { TestUseState } from "./components/TestUseState";
 import { TestUseEffect } from "./components/TestUseEffect";
 import Parent from "./components/TestProps/Parent";
+
+import DemoRouter from "./components/TestRouter/DemoRouter";
+
+
+
 function App() {
   return (
     <div className="App">
       {/* <TestMap/> */}
       {/* <TestUseState/> */}
       {/* <TestUseEffect/> */}
-      <Parent />
+      {/* <Parent /> */}
+      <DemoRouter/>
+     
+      
+
     </div>
   );
 }
